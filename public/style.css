@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: plum;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+#result {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}
